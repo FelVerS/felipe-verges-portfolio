@@ -52,6 +52,11 @@ test("there is no downloadable CV or PDF reference", () => {
   assert.doesNotMatch(index, /download|\.pdf/i);
 });
 
+test("the AI agent skill is represented in visible and structured content", () => {
+  assert.match(index, /AI coding agents \(Codex\)/);
+  assert.match(index, /"OpenAI Codex"/);
+});
+
 test("local asset references use supported file types", () => {
   const references = [...index.matchAll(/(?:href|src)="\.\/([^"#?]+)"/g)].map(
     (match) => match[1],

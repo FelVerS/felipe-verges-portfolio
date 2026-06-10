@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://felvers.github.io/felipe-verges-portfolio/sitemap.xml

@@ -1,0 +1,17 @@
+{
+  "name": "Felipe Verges Suarez | Data Engineer",
+  "short_name": "Felipe Verges",
+  "description": "Portfolio of Felipe Verges Suarez, Industrial Engineer and Data Engineer in Barcelona.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f1e9",
+  "theme_color": "#f4f1e9",
+  "icons": [
+    {
+      "src": "./assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
